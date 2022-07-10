@@ -16,7 +16,7 @@
     align-items: center;
     min-height: 100vh;
 }
-.container
+.main-content
 {
     position: relative;
     width: 100%;
@@ -28,7 +28,7 @@
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
-.container .left_side
+.main-content .left-section
 {
     position: relative;
     background: #003147;
@@ -42,7 +42,7 @@
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
-.profileText .imgBx
+.profileText .profile-image
 {
     position: relative;
     width: 200px;
@@ -50,7 +50,7 @@
     border-radius: 50%;
     overflow: hidden;
 }
-.profileText .imgBx img{
+.profileText .profile-image img{
     position: absolute;
     top: 0;
     left: 0;
@@ -73,7 +73,7 @@
     font-weight: 300;
     
 }
-.contactinfo
+.contact-item
 {
     padding-top: 40px;
 }
@@ -86,14 +86,14 @@
     margin-bottom: 20px;
 
 }
-.contactinfo ul
+.contact-item ul
 {
     display: inline;
     position: relative;
    
 }
 
-.contactinfo ul li
+.contact-item ul li
 {
     display:flex;
  position: relative;
@@ -102,14 +102,14 @@
  cursor: pointer;
 
 }
-.contactinfo ul li .icon
+.contact-item ul li .icon
 {
  display: inline-block;
     width: 30px;
     font-size: 18px;
     color: blue;
 }
-.contactinfo ul li span
+.contact-item ul li span
 {
   color: #fff;
   font-weight: 300;
@@ -117,24 +117,24 @@
   
 }
 
-.contactinfo.education
+.contact-item.education
 {
     margin-bottom: 15px;
 }
-.contactinfo.education h5{
+.contact-item.education h5{
     color: #03a9f4;
     font-weight: 500;
 }
-.contactinfo.education h4{
+.contact-item.education h4{
     color: #fff;
     font-weight: 500;
 }
-.contactinfo.education h4{
+.contact-item.education h4{
     color: #fff;
     font-weight: 300;
 }
 
-.contactinfo.language .percent{
+.contact-item.language .percent{
     
     position: relative;
     width: 100%;
@@ -145,7 +145,7 @@
 
 }
 
-.contactinfo.language .percent div
+.contact-item.language .percent div
 {   
     position: absolute;
     left: 0;
@@ -156,7 +156,7 @@
 
 /*     ----:right side part:----          */
 
-.container .right_side
+.main-content .right-section
 {
     position: relative;
     background: #fff;
