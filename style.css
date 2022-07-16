@@ -94,14 +94,20 @@ body {
     display: flex;
     margin-left: 1.6rem;
     margin-top:1rem;
+    
 }
- 
+ .skill-progress{
+    position: relative;
+    top: 0;
+    left: 0;
+    height:100%;
+    
+ }
 
  .pogress-bar
 {   background:  #fff;
     border: 1px;
     height: 4px;
-    
 }
 
 .text{
@@ -150,10 +156,11 @@ body {
 
 
 @media (max-width:900px) {
-    .container {
+    .main-content {
         margin: 10px;
 
         grid-template-columns: repeat(1, 1fr);
     }
+
 
 }
